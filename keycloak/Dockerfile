@@ -1,4 +1,4 @@
-FROM jboss/keycloak
+FROM quay.io/keycloak/keycloak:18.0.2-legacy
 
 COPY ./realm.json /realm.json
 
